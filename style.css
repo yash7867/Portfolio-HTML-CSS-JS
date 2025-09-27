@@ -185,7 +185,7 @@ ul {
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
   .logo {
   font-size: 1.3rem;
 }
@@ -196,12 +196,29 @@ h4{
 }
 
 /* Mobile */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 435px) {
   .logo {
   font-size: 1rem;
 }
 h4{
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
+#hamburger-nav {
+  display: none;
+  height: auto;
+}
+a{
+  font-size: 0.45rem;
+}
+skills{
+  font-size: 0.45rem;
+}
+p{
+  font-size: 0.5rem;
+}
+h2,h1{
+  font-size: 1.2rem;
+}
+
 
 }
